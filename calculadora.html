@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="meuCss.css">
+        <script src="meuJS.js"></script>
+
+        <div>Calculadora em JS</div>
+
+        <table border="2">
+            <tr>
+                <td> <input type="button" value="c" onclick="clr()"> </td>
+                <td colspan="3"> <input type="text" id="text"> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="+" onclick="mostrador('+')"> </td>
+                <td> <input type="button" value="1" onclick="mostrador('1')"> </td>
+                <td> <input type="button" value="2" onclick="mostrador('2')"> </td>
+                <td> <input type="button" value="3" onclick="mostrador('3')"> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="-" onclick="mostrador('-')"> </td>
+                <td> <input type="button" value="4" onclick="mostrador('4')"> </td>
+                <td> <input type="button" value="5" onclick="mostrador('5')"> </td>
+                <td> <input type="button" value="6" onclick="mostrador('6')"> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="*" onclick="mostrador('*')"> </td>
+                <td> <input type="button" value="7" onclick="mostrador('7')"> </td>
+                <td> <input type="button" value="8" onclick="mostrador('8')"> </td>
+                <td> <input type="button" value="9" onclick="mostrador('9')"> </td>
+            </tr>
+            <tr>
+                <td> <input type="button" value="/" onclick="mostrador('/')"> </td>
+                <td> <input type="button" value="." onclick="mostrador('.')"> </td>
+                <td> <input type="button" value="0" onclick="mostrador('0')"> </td>
+                <td> <input type="button" value="=" onclick="evaluation()"> </td>
+            </tr>
+        </table>
+    </body>
+</html>
